@@ -1,0 +1,76 @@
+#locationPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #dfcccc96;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    text-align: center;
+    max-width: 400px;
+    
+  }
+ 
+  .buttonContainer button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .buttonContainer button:focus {
+    outline: none;
+  }
+  
+  #disagreeButton {
+    /* ... existing styles ... */
+  }
+  
+  #disagreeButton:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+  }
+  
+  #locationPopup h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  #locationPopup p {
+    margin: 0 0 20px;
+    color: #555555;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttonContainer button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #45a049;
+  }
+  
+  .buttonContainer button:focus {
+    outline: none;
+  }
+  
+  #disagreeButton {
+    background-color: #f44336;
+  }
+  
+  #disagreeButton:hover {
+    background-color: #d32f2f;
+  }
+  
